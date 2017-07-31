@@ -1,15 +1,13 @@
 // server.js
 // where your node app starts
-const express = require('express'),
-	  url = require('url'),
-	  qs = require('querystring'),
-	  cookieParser = require('cookie-parser'),
-	  GoogleImages = require('google-images');
-const hostname = '114.32.22.248',
-	  port = 8080,
-	  cseId = '008578979207880262721:dbod6lff6a8',
-	  apiKey = 'AIzaSyBxHvtRbyoxis2epkD4X26hS7cQUl8_sNQ',
-	  secret = 'CP7AWaXDfAKIRfH49dQzKJx7sKzzSoPq7/AcBBRVwlI3';
+const 	express = require('express'),
+	url = require('url'),
+	qs = require('querystring'),
+	cookieParser = require('cookie-parser'),
+	GoogleImages = require('google-images');
+const	cseId = '008578979207880262721:dbod6lff6a8',
+	apiKey = '',
+	secret = 'CP7AWaXDfAKIRfH49dQzKJx7sKzzSoPq7/AcBBRVwlI3';
 
 const app = express(),
 	  router = express.Router();
