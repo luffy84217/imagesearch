@@ -1,0 +1,27 @@
+{
+  "name": "imagesearch",
+  "version": "1.0.0",
+  "description": "this is an app providing image search abstraction layer service.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "google-images": "^2.1.0"
+  },
+  "engines": {
+    "node": "^6.11.1"
+  },
+  "repository": {},
+  "devDependencies": {},
+  "author": "Fu Chuan Yu",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "custom search engine"
+  ]
+}
